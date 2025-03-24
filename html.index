@@ -7,10 +7,10 @@
   <body>
     <a-scene>
       <a-assets>
-        <a-asset-item id="room" src="assets/world.glb"></a-asset-item>
+        <a-asset-item id="world" src="assets/world.glb"></a-asset-item>
       </a-assets>
 
-      <a-entity gltf-model="#room" position="0 0 -4" scale="2 2 2"></a-entity>
+      <a-entity gltf-model="#world" position="0 0 -4" scale="2 2 2"></a-entity>
 
       <a-camera position="0 1.6 0">
         <a-cursor></a-cursor>
