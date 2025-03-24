@@ -7,7 +7,7 @@
   <body>
     <a-scene>
       <a-assets>
-        <a-asset-item id="world" src="assets/world.glb"></a-asset-item>
+        <a-asset-item id="world" src="world.glb"></a-asset-item>
       </a-assets>
 
       <a-entity gltf-model="#world" position="0 0 -4" scale="2 2 2"></a-entity>
